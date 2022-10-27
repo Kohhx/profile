@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color: #363636;
+}
+
+.main-container {
+  text-align:center;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgb(224, 224, 224,0.75)),
+    url('https://i.ibb.co/HNNqrwM/SGF15-BW.jpg-BW.jpg');
+  /* background-image: url(https://i.ibb.co/HNNqrwM/SGF15-BW.jpg-BW.jpg); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding:30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; /* if you want the light version */
+}
+
+
+.description p{
+  font-weight:500;
+  margin-bottom:15px;
+}
+
+
+.image-container{
+  width:8rem;
+  height:8rem;
+  margin: 0 auto;
+  margin-top:20px;
+  margin-bottom:30px;
+}
+
+.image-container > img {
+  max-width:100%;
+  height:100%;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 2px 2px 5px;
+}
+
+
+hr {
+border: 5px dotted grey;
+width:5%;
+border-top:none;
+margin: 0 auto;
+}
+
+
+.interest-container li {
+  list-style-type: none;
+  margin:1rem;
+  text-align: justify;
+}
+
+.interest-container > div{
+  margin: 0 auto;
+  width: max-content;
+}
+
+.last-container a{
+padding: 10px;
+}
+
+.card {
+border: 2px solid black;
+width:50%;
+padding:10px;
+margin: 0 auto;
+border-radius: 10px;
+box-shadow: 2px 2px 5px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
